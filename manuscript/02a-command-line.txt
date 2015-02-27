@@ -1,0 +1,58 @@
+# Command Line
+
+## Why the Command Line?
+
+Can't I just use the GUI tools? 
+
+Yes. Move onto next section (2b for the GUI tools).
+
+- mimics linux environments
+- teaches us linux commands 
+- helps us eventually transition to hosting, deployment, server handling (never a bad thing to learn)
+- ~70% of public websites run on linux (http://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Public_servers_on_the_Internet)
+
+## Command Line Tools
+
+The main thing we want here are some basic operating system commands like cut, copy, move, and delete.
+
+We will also want to be able to use git commands to help us manage our code. We'll talk about Git in the next section. For now, we will setup the foundation so we can move forward with a great command line setup.
+
+### Mac
+
+- iTerm
+- ohmyzsh
+
+TODO: IMAGE HERE
+
+### Windows
+
+If you want to stick with the Windows command line programs, you can use:
+
+- cmd
+- Powershell
+
+Difference between UNIX based (Mac and Linux) operating systems and Windows. 
+
+- no universal packages
+- commands are different
+    + ls is dir
+
+#### Windows Tools
+
+- [cmder](http://bliker.github.io/cmder/) - Full version
+
+TODO: IMAGE HERE
+
+- This is a wrapper for a few things
+    + msysgit - the core program. helps emulate linux commands and provides git commands
+    + ssh commands - used to connect to remote servers (we'll use this in the hosting Chapter 11)
+    + conemu - the console emulator that wraps msysgit
+
+- Provides Benefits not found in Windows tools
+    + Forces us to learn Linux commands
+    + Tabs
+    + Split panes
+    + Theming
+    + Transparency
+    + Background Images
+    + 
